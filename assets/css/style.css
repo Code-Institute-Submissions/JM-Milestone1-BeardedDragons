@@ -1,10 +1,11 @@
 body {
     text-align: center;
+    background-color: black;
+    color: lightgray;
 }
 
 header {
     margin: 0;
-    background-color: black;
     height: 20vh;
 }
 
@@ -31,7 +32,11 @@ header {
     background-position: bottom middle;
 }
 
+.navbar-toggler {
+}
+
 .bars-mobile {
+    color: lightgray;
     font-size: 8vh;
 }
 

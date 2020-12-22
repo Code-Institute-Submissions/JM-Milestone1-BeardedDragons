@@ -48,3 +48,15 @@ footer {
     padding: 5px;
     height: 5vh;
 }
+
+.guide-img {
+    height: 20vh;
+    width: 40vw;
+}
+
+#firstArticle {
+    background: url("../images/dragon-small.jpg");
+    background-position: bottom middle;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

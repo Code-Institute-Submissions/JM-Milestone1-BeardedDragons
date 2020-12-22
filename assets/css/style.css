@@ -60,3 +60,22 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.btn-footer {
+    color: lightgray;
+}
+
+.modal-dialog {
+    position: absolute;
+    bottom: 10vh;
+    width: 80%;
+    margin: 0 10%;
+}
+
+.modal-body {
+    font-size: small;
+}
+
+.modal--footer {
+
+}

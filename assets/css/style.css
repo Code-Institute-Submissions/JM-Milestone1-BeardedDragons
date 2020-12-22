@@ -1,17 +1,22 @@
+
+/* MAIN CONTAINER */
+
 body {
     text-align: center;
     background-color: black;
     color: lightgray;
 }
 
-header {
-    margin: 0;
-    height: 20vh;
-}
-
 .container-fluid {
     position: relative;
     min-height: 100vh;
+}
+
+/* HEADER */
+
+header {
+    margin: 0;
+    height: 20vh;
 }
 
 .nav {
@@ -32,22 +37,12 @@ header {
     background-position: bottom middle;
 }
 
-.navbar-toggler {
-}
-
 .bars-mobile {
     color: lightgray;
     font-size: 8vh;
 }
 
-footer {
-
-    background-color: black;
-    color: lightgray;
-    width: 100%;
-    padding: 5px;
-    height: 5vh;
-}
+/* SECTIONS */
 
 .guide-img {
     height: 20vh;
@@ -59,6 +54,17 @@ footer {
     background-position: bottom middle;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/* FOOTER */
+
+footer {
+
+    background-color: black;
+    color: lightgray;
+    width: 100%;
+    padding: 5px;
+    height: 5vh;
 }
 
 .btn-footer {

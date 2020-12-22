@@ -8,6 +8,11 @@ header {
     height: 20vh;
 }
 
+.container-fluid {
+    position: relative;
+    min-height: 100vh;
+}
+
 .nav {
     padding: 0;
 }
@@ -28,4 +33,13 @@ header {
 
 .bars-mobile {
     font-size: 8vh;
+}
+
+footer {
+
+    background-color: black;
+    color: lightgray;
+    width: 100%;
+    padding: 5px;
+    height: 5vh;
 }

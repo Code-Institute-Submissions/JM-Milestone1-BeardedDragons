@@ -7,12 +7,14 @@ body {
     color: lightgray;
 }
 
-h1, h2, h3 {
+h1, h2 {
     text-transform: uppercase;
 }
 
 h2 {
-    font-size: large;
+    font-size: medium;
+    padding: 15px 0px;
+    margin: 0px;
 }
 
 strong {
@@ -22,6 +24,7 @@ strong {
 hr {
     background-color: burlywood;
     margin-top: 0;
+    width: 80%;
 }
 
 /* MAIN CONTAINER */
@@ -123,9 +126,31 @@ header {
 
 /* GUIDE PAGE */
 
+.guide-article {
+    /* border: 1.5px solid burlywood; */
+    width: 90vw;
+    margin-bottom: 10px;
+}
+
+.guide-article p {
+    font-size: small;
+    text-align: justify;
+}
+
+.guide-article img {
+    border: 1.5px solid burlywood;
+}
+
 .guide-img {
     height: 20vh;
     width: 40vw;
+    margin-bottom: 6px;
+    border: 2px solid burlywood;
+}
+
+.btn-guide {
+    margin: 10px;
+    font-size: smaller;
 }
 
 .guide-dropdown {

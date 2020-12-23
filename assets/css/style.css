@@ -16,11 +16,11 @@ h2 {
 }
 
 strong {
-    color: orange;
+    color: burlywood;
 }
 
 hr {
-    background-color: orange;
+    background-color: burlywood;
     margin-top: 0;
 }
 
@@ -66,8 +66,8 @@ header {
 .accordion {
     width: 90vw;
     margin: auto;
-    border: 1px solid orange;
-    border-radius: 5px;
+    border: 1.5px solid burlywood;
+    border-radius: 2px;
 }
 
 .info-article {

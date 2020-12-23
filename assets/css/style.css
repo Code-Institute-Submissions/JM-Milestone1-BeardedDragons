@@ -39,16 +39,20 @@ hr {
     width: 100%;
 }
 
-/* .full-width {
+.full-width {
     width: 100vw;
-    position: relative;
+    position: absolute;
     left: 0;
-} */
+}
 
 /* MAIN CONTAINER */
 
 .container-fluid {
     min-height: 93vh;
+    padding: 0;
+}
+
+.container {
     padding: 0;
     margin: 0;
 }
@@ -65,6 +69,10 @@ header {
 
 nav {
     text-align: right;
+    padding: 10px 0px;
+}
+.navbar {
+    padding: 0;
 }
 
 .nav-img {
@@ -74,8 +82,28 @@ nav {
     background-size: contain;
 }
 
-.fa-bars {
+.nav-links {
+    padding: 0px 5vw 0px 0px;
+    margin: 0;
 
+}
+
+.nav-links li {
+justify-content: end;
+}
+
+.nav-link {
+
+    text-align: right;
+    padding: 10px 0px;
+    width: 100%;
+    height: 100%;
+    font-size: large;
+    color: lightgray;
+    font-weight: bold;
+}
+
+.fa-bars {
     font-size: x-large;
     color: lightgray;
 }
@@ -97,6 +125,7 @@ nav {
     border-color: burlywood;
     border-style: solid;
     padding: 15px 0px;
+    /* margin-top: auto; */
 
     /* background: url("../images/dragon-largebg-3.jpg");
     background-position: bottom right;
@@ -269,6 +298,10 @@ footer {
 }
 
 .modal--footer {}
+
+@media only screen and (max-width: 300px) {
+    .nav-img {background-image: none;}
+}
 
 @media only screen and (max-width: 572px) {
     /* .header-img {background-position: left left;}

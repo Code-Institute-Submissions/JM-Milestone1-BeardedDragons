@@ -12,40 +12,29 @@
 </head>
 
 <body>
-    <!-- Wraps everything except footer -->
-    <div class="container-fluid">
 
-        <!-- Header with nav links -->
-        <div class="row header">
-            <div class="col-5 col-sm-4 col-md-4 header-img header-img--left">
-                <img src="./assets/images/dragon-small.jpg" height="100px" alt="">
+
+    <!-- Header with nav links -->
+    <header class="header">
+        <nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileNav"
+                aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i></button> 
+            <div id="mobileNav" class="mobile-nav row collapse navbar-collapse">
+                <div class="col-6">
+                    <a class="" href="info.html">A Brief History of Dragons</a>
+                </div>
+                <div class="col-6">
+                    <a class="" href="guide.html">Dragon Keeper's Guide</a>
+                </div>
             </div>
+        </nav>
+    </header>
+
+    <!-- Mobile nav collapse navbar -->
 
 
-            <!-- Mobile nav collapse button -->
-            <nav class="col-2 col-sm-4 col-md-4 navbar justify-content-center">
-                <button class="navbar-toggler button-nav" type="button" data-toggle="collapse" data-target="#mobileNav"
-                    aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </nav>
-
-
-
-            <div class=" d-sm-block col-5 col-sm-4 col-md-4 header-img"></div>
-        </div>
-
-        <!-- Mobile nav collapse navbar -->
-        <div id="mobileNav" class="mobile-nav row collapse navbar-collapse">
-            <div class="col-6">
-                <a class="" href="info.html">A Brief History of Dragons</a>
-            </div>
-            <div class="col-6">
-                <a class="" href="guide.html">Dragon Keeper's Guide</a>
-            </div>
-        </div>
-
-
+    <main class="container-fluid">
         <section class="row">
             <!-- Page title & introduction -->
             <div class="col-12 page-title">
@@ -76,7 +65,7 @@
             </div>
         </section>
 
-    </div> <!-- end main container -->
+    </main> <!-- end main container -->
 
     <footer class="mt-auto">
         <!-- Footer buttons-->

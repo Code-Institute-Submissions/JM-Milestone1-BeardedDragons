@@ -54,28 +54,18 @@ hr {
 
 /* HEADER */
 
-.navbar {
-    padding: 40px 20px;
+nav {
+    text-align: right;
 }
-
-.header-img {
-    background: url("../images/dragon-small.jpg");
-    background-position: right right;
-    background-repeat: no-repeat;
-    background-size: auto 100%;
-    padding: 0;
-    margin: 0;
-
-}
-
 .fa-bars {
-    font-size: 6vh;
-    color: burlywood;
+
+    font-size: x-large;
+    color: lightgray;
 }
 
-.header-img--left {
-    left: 0;
-    transform: scaleX(-1);
+.navbar-toggler {
+    right: 0;
+    margin: 10px;
 }
 
 

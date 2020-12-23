@@ -4,7 +4,7 @@ body {
     text-align: center;
     background-color: black;
     color: lightgray;
-    width:viewport
+
 }
 
 h1,
@@ -42,40 +42,45 @@ hr {
 /* MAIN CONTAINER */
 
 .container-fluid {
-    position: relative;
-    min-height: 100vh;
+    position: static;
+    min-height: 90vh;
+    width: 100vw;
 }
 
 html body div section div div.col
 
 /* HEADER */
 
-header {
-    margin: 0;
-    /* height: 20vh; */
+.header {
+
 }
 
-.nav {
-    padding: 0;
+.navbar {
+    padding: 40px 20px;
 }
 
 .header-img {
     background: url("../images/dragon-small.jpg");
-    background-position: bottom middle;
+    background-position: right right;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto 100%;
     padding: 0;
     margin: 0;
+    position: absolute;
+    right: 0;
 }
 
+.fa-bars {
+    font-size: 6vh;
+    color: burlywood;
+}
 .header-img--left {
+    left: 0;
     transform: scaleX(-1);
 }
 
-.bars-mobile {
-    color: burlywood;
-    font-size: 8vh;
-
+.button-nav {
+padding
 }
 
 /* TITLE & INTRO */
@@ -89,6 +94,12 @@ header {
     border-color: burlywood;
     border-style: solid;
     padding: 15px 0px;
+
+    /* background: url("../images/dragon-largebg-3.jpg");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: auto 100%; */
+
 }
 
 /* INFO PAGE */
@@ -265,3 +276,7 @@ footer {
 }
 
 .modal--footer {}
+
+@media only screen and (max-width: 572px) {
+    background-position: center;
+}

@@ -23,8 +23,8 @@ strong {
 
 hr {
     background-color: burlywood;
-    margin-top: 0;
-    width: 80%;
+    margin: 0;
+    width: 100%;
 }
 
 /* MAIN CONTAINER */
@@ -135,6 +135,7 @@ header {
 .guide-article p {
     font-size: small;
     text-align: justify;
+    margin-top:12px;
 }
 
 .guide-article img {
@@ -149,23 +150,30 @@ header {
 }
 
 .btn-guide {
-    margin: 10px;
-    font-size: smaller;
+    margin: 10px auto 20px auto;
+    font-size: small;
 }
 
 .guide-dropdown {
-    margin: 0 auto;
+    margin: 20px auto 30px auto;
 }
 
 .dropdown-menu {
     width: 250px;
-    margin-left: -72px;
+    margin-left: -85px;
     text-align: center;
     background-color: black;
+    border: 2px solid burlywood;
+    padding:0;
 }
 
 .dropdown-item {
     color: lightgray;
+    padding: 7 auto;
+}
+
+#firstDropdownItem {
+    border-top:0;
 }
 
 #firstArticle {

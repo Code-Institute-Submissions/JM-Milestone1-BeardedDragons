@@ -4,6 +4,7 @@ body {
     text-align: center;
     background-color: black;
     color: lightgray;
+    width:viewport
 }
 
 h1,
@@ -45,11 +46,13 @@ hr {
     min-height: 100vh;
 }
 
+html body div section div div.col
+
 /* HEADER */
 
 header {
     margin: 0;
-    height: 20vh;
+    /* height: 20vh; */
 }
 
 .nav {
@@ -67,12 +70,12 @@ header {
 
 .header-img--left {
     transform: scaleX(-1);
-    background-position: bottom middle;
 }
 
 .bars-mobile {
-    color: lightgray;
+    color: burlywood;
     font-size: 8vh;
+
 }
 
 /* TITLE & INTRO */
@@ -220,9 +223,6 @@ footer {
     /* border-top: 1px solid burlywood; */
 }
 
-.col-4 {
-    padding: 0;
-}
 .btn-footer {
     color: lightgray;
     font-weight: lighter;

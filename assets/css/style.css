@@ -84,14 +84,14 @@ header {
     border-width: 1px 0px;
     border-color: burlywood;
     border-style: solid;
-    padding: 20px 0px;
+    padding: 15px 0px;
 }
 
 /* INFO PAGE */
 
 .accordion {
     width: 90vw;
-    margin: auto;
+    margin: 20px auto;
     border: 1.5px solid burlywood;
     border-radius: 2px;
 }
@@ -111,10 +111,13 @@ header {
     background-color: black;
     color: lightgray;
     text-align: justify;
-    padding-top: 0px;
+    padding: 12px;
     font-size: small;
     border: 0px;
     border-radius: 0px;
+}
+.card-body p {
+ /* margin: 15px 0px 0px 0px; */
 }
 
 .btn-info {
@@ -129,7 +132,7 @@ header {
     width: 100%;
     background-color: black;
     color: lightgray;
-    padding: 15px 0px;
+    padding: 5px 0px;
     border: 0;
 }
 

@@ -48,7 +48,8 @@ hr {
 
 .container-fluid {
     min-height: 93vh;
-
+    padding: 0;
+    margin: 0;
 }
 
 /* HEADER */
@@ -71,6 +72,7 @@ hr {
     font-size: 6vh;
     color: burlywood;
 }
+
 .header-img--left {
     left: 0;
     transform: scaleX(-1);
@@ -183,7 +185,7 @@ hr {
 
 .guide-dropdown {
     margin: 20px auto 30px auto;
-    width:100%;
+    width: 100%;
 }
 
 .dropdown-menu {
@@ -223,7 +225,7 @@ footer {
     font-weight: lighter;
     font-size: small;
     box-shadow: none;
-    padding:12px 0px;
+    padding: 12px 0px;
 }
 
 .btn-footer:active,

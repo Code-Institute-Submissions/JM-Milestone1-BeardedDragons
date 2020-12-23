@@ -1,4 +1,3 @@
-
 /* TEXT */
 
 body {
@@ -7,7 +6,8 @@ body {
     color: lightgray;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-transform: uppercase;
     padding: 0;
     margin: 0;
@@ -16,6 +16,7 @@ h1, h2 {
 h1 {
     font-size: x-large;
 }
+
 h2 {
     font-size: medium;
     padding: 15px 0px;
@@ -32,9 +33,9 @@ hr {
 }
 
 .full-width {
-    width:100vw;
+    width: 100vw;
     position: relative;
-    left:0;
+    left: 0;
 }
 
 /* MAIN CONTAINER */
@@ -99,6 +100,7 @@ header {
 .info-article {
     border: none;
 }
+
 .card-header {
     background-color: black;
     padding: 0;
@@ -116,8 +118,9 @@ header {
     border: 0px;
     border-radius: 0px;
 }
+
 .card-body p {
- /* margin: 15px 0px 0px 0px; */
+    /* margin: 15px 0px 0px 0px; */
 }
 
 .btn-info {
@@ -161,7 +164,7 @@ header {
 .guide-article p {
     font-size: small;
     text-align: justify;
-    margin-top:12px;
+    margin-top: 12px;
 }
 
 .guide-article img {
@@ -190,7 +193,7 @@ header {
     text-align: center;
     background-color: black;
     border: 2px solid burlywood;
-    padding:0;
+    padding: 0;
 }
 
 .dropdown-item {
@@ -199,7 +202,7 @@ header {
 }
 
 #firstDropdownItem {
-    border-top:0;
+    border-top: 0;
 }
 
 #firstArticle {
@@ -212,16 +215,35 @@ header {
 /* FOOTER */
 
 footer {
-
     background-color: black;
-    color: lightgray;
-    width: 100%;
-    padding: 5px;
-    height: 5vh;
+    /* margin-top: 150px; */
+    /* border-top: 1px solid burlywood; */
 }
 
+.col-4 {
+    padding: 0;
+}
 .btn-footer {
     color: lightgray;
+    font-weight: lighter;
+    font-size: small;
+    box-shadow: none;
+    padding:12px 0px;
+}
+
+.btn-footer:active,
+.btn-footer:hover {
+    color: burlywood;
+    box-shadow: none;
+}
+
+.btn-footer:focus {
+    box-shadow: none;
+}
+
+.btn-footer:visited {
+    color: lightgray;
+    box-shadow: none;
 }
 
 .modal-dialog {
@@ -229,12 +251,17 @@ footer {
     bottom: 10vh;
     width: 80%;
     margin: 0 10%;
+
 }
 
-.modal-body {
+.modal-body {}
+
+.modal-content {
+    border: 1px solid burlywood;
+    border-radius: 3px;
     font-size: small;
+    background-color: black;
+    color: lightgray;
 }
 
-.modal--footer {
-
-}
+.modal--footer {}

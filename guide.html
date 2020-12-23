@@ -12,170 +12,163 @@
 </head>
 
 <body>
-    <!-- Wraps everything except footer -->
-    <div class="container-fluid">
+    <!-- Header with nav links -->
+    <header class="header">
+        <nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileNav"
+                aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i></button>
+        </nav>
+    </header>
 
-        <!-- Header with nav links -->
-        <header class="header row">
-            <div class="col-4 header-img header-img--left"></div>
-            <!-- Mobile nav collapse button -->
-            <nav class="col-4 navbar justify-content-center flex-column">
-                <button class="navbar-toggler bars-mobile" type="button" data-toggle="collapse" data-target="#mobileNav"
-                    aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </nav>
-            <div class="col-4 header-img"></div>
-        </header>
-       
-        <!-- Mobile nav collapse navbar -->
-        <div id="mobileNav" class="mobile-nav row collapse navbar-collapse">
-            <div class="col-6">
-                <a class="" href="index.html">Home</a>
-            </div>
-            <div class="col-6">
-                <a class="" href="info.html">A Brief History of Dragons</a>
-            </div>
-        </div>
+    <div id="mobileNav" class="row collapse navbar-collapse nav-img justify-content-end">
+        <hr>
+        <ul class="col-6 nav-links">
+            <li class="row"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="row"><a class="nav-link" href="info.html">Information</a></li>
+            <li class="row"><a class="nav-link" href="guide.html">Guide</a></li>
+        </ul>
 
-        <section class="row">
-            <!-- Page title & introduction -->
-            <h1 class="col-12 page-title">Dragon Keeper's Guide</h1>         
+    </div>
+
+    <main class="container-fluid">
+
+        <!-- Page title & introduction -->
+        <div class="row">
+            <h1 class="col-12 page-title">Dragon Keeper's Guide</h1>
             <div class="row page-intro">
                 <p class="col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et
                     dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
                     aliquip.
                 </p>
-
             </div>
-            <!-- Dropdown button for Guide -->
-            <div class="row guide-dropdown">
-                <div class="col-12 dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
-                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select</button>
+        </div>
 
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                        <a class="dropdown-item" href="#guideArticleOne">Article One</a>
-                        <hr>
-                        <a class="dropdown-item" href="#guideArticleTwo">Article Two</a>
-                        <hr>
-                        <a class="dropdown-item" href="#guideArticleThree">Article Three</a>
-                    </div>
+        <!-- Dropdown button for Guide -->
+        <div class="row guide-dropdown">
+            <div class="col-12 dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select</button>
+
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#guideArticleOne">Article One</a>
+                    <hr>
+                    <a class="dropdown-item" href="#guideArticleTwo">Article Two</a>
+                    <hr>
+                    <a class="dropdown-item" href="#guideArticleThree">Article Three</a>
                 </div>
             </div>
-            <!-- Article One -->
-            <article id="guideArticleOne" class="container guide-article">
-                <!-- Article title -->
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Article One</h2>
-                    </div>
-                </div>
-                <!-- Article image -->
-                <div class="row justify-content-center">
-                    <div class="col-6 guide-img" id="firstArticle">
-                    </div>
-                </div>
-                <!-- Purchase link -->
-                <div class="row">
-                    <div class="col-12">
-                        <a href="https://amazon.com" class="store-link" target="_blank">
-                            <button type="button" class="btn btn-success btn-guide">Buy Now</button></a>
-                    </div>
-                </div>
-                <hr>
-                <!-- Article text -->
-                <div class="row">
-                    <p class="col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-                <hr>
-            </article>
+        </div>
 
-            <!-- Article Two -->
-            <article id="guideArticleTwo" class="container guide-article">
-                <!-- Article title -->
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Article Two</h2>
-                    </div>
+        <!-- Article One -->
+        <article id="guideArticleOne" class="container guide-article">
+            <!-- Article title -->
+            <div class="row">
+                <div class="col-12">
+                    <h2>Article One</h2>
                 </div>
-                <!-- Article image -->
-                <div class="row justify-content-center">
-                    <div class="col-6 guide-img" id="firstArticle">
-                    </div>
+            </div>
+            <!-- Article image -->
+            <div class="row justify-content-center">
+                <div class="col-6 guide-img" id="firstArticle">
                 </div>
-                <!-- Purchase link -->
-                <div class="row">
-                    <div class="col-12">
-                        <a href="https://amazon.com" class="store-link" target="_blank">
-                            <button type="button" class="btn btn-success btn-guide">Buy Now</button></a>
-                    </div>
+            </div>
+            <!-- Purchase link -->
+            <div class="row">
+                <div class="col-12">
+                    <a href="https://amazon.com" class="store-link" target="_blank">
+                        <button type="button" class="btn btn-success btn-guide">Buy Now</button></a>
                 </div>
-                <hr>
-                <!-- Article text -->
-                <div class="row">
-                    <p class="col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
+            </div>
+            <hr>
+            <!-- Article text -->
+            <div class="row">
+                <p class="col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui
+                    officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <hr>
+        </article>
 
-                <hr>
-            </article>
+        <!-- Article Two -->
+        <article id="guideArticleTwo" class="container guide-article">
+            <!-- Article title -->
+            <div class="row">
+                <div class="col-12">
+                    <h2>Article Two</h2>
+                </div>
+            </div>
+            <!-- Article image -->
+            <div class="row justify-content-center">
+                <div class="col-6 guide-img" id="firstArticle">
+                </div>
+            </div>
+            <!-- Purchase link -->
+            <div class="row">
+                <div class="col-12">
+                    <a href="https://amazon.com" class="store-link" target="_blank">
+                        <button type="button" class="btn btn-success btn-guide">Buy Now</button></a>
+                </div>
+            </div>
+            <hr>
+            <!-- Article text -->
+            <div class="row">
+                <p class="col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui
+                    officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+            <hr>
+        </article>
 
-            <!-- Article Three -->
-            <article id="guideArticleThree" class="container guide-article">
-                <!-- Article title -->
-                <div class="row">
-                    <div class="col-12">
-                        <h2>Article Three</h2>
-                    </div>
+        <!-- Article Three -->
+        <article id="guideArticleThree" class="container guide-article">
+            <!-- Article title -->
+            <div class="row">
+                <div class="col-12">
+                    <h2>Article Three</h2>
                 </div>
-                <!-- Article image -->
-                <div class="row justify-content-center">
-                    <div class="col-6 guide-img" id="firstArticle">
-                    </div>
+            </div>
+            <!-- Article image -->
+            <div class="row justify-content-center">
+                <div class="col-6 guide-img" id="firstArticle">
                 </div>
-                <!-- Purchase link -->
-                <div class="row">
-                    <div class="col-12">
-                        <a href="https://amazon.com" class="store-link" target="_blank">
-                            <button type="button" class="btn btn-success btn-guide">Buy Now</button></a>
-                    </div>
+            </div>
+            <!-- Purchase link -->
+            <div class="row">
+                <div class="col-12">
+                    <a href="https://amazon.com" class="store-link" target="_blank">
+                        <button type="button" class="btn btn-success btn-guide">Buy Now</button></a>
                 </div>
-                <hr>
-                <!-- Article text -->
-                <div class="row">
-                    <p class="col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                        incididunt ut labore et
-                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                        ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                        esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                        culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
-                <hr>
-            </article>
+            </div>
+            <hr>
+            <!-- Article text -->
+            <div class="row">
+                <p class="col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                    incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                    esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui
+                    officia deserunt mollit anim id est laborum.
+                </p>
+            </div>
+        </article>
 
-        </section>
-
-    </div> <!-- end main container -->
+    </main> <!-- end main container -->
 
     <footer class="mt-auto">
         <!-- Footer buttons-->
@@ -234,8 +227,8 @@
         </div>
 
         <!-- Copyright modal-->
-        <div class="modal fade modal--footer" id="copyrightModal" tabindex="-1"
-            aria-labelledby="copyrightModalLabel" aria-hidden="true">
+        <div class="modal fade modal--footer" id="copyrightModal" tabindex="-1" aria-labelledby="copyrightModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-body">

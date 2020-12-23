@@ -12,31 +12,25 @@
 </head>
 
 <body>
-    <!-- Wraps everything except footer -->
-    <div class="container-fluid">
+    <!-- Header with nav links -->
+    <header class="header">
+        <nav>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileNav"
+                aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fas fa-bars"></i></button>
+        </nav>
+    </header>
 
-        <!-- Header with nav links -->
-        <header class="header row">
-            <div class="col-4 header-img header-img--left"></div>
-            <!-- Mobile nav collapse button -->
-            <nav class="col-4 navbar justify-content-center flex-column">
-                <button class="navbar-toggler bars-mobile" type="button" data-toggle="collapse" data-target="#mobileNav"
-                    aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-bars"></i>
-                </button>
-            </nav>
-            <div class="col-4 header-img"></div>
-        </header>
+    <div id="mobileNav" class="row collapse navbar-collapse nav-img justify-content-end">
+        <hr>
+        <ul class="col-6 nav-links">
+            <li class="row"><a class="nav-link" href="index.html">Home</a></li>
+            <li class="row"><a class="nav-link" href="info.html">Information</a></li>
+            <li class="row"><a class="nav-link" href="guide.html">Guide</a></li>
+        </ul>
+    </div>
 
-        <!-- Mobile nav collapse navbar -->
-        <div id="mobileNav" class="mobile-nav row collapse navbar-collapse">
-            <div class="col-6">
-                <a class="" href="index.html">Home</a>
-            </div>
-            <div class="col-6">
-                <a class="" href="guide.html">Dragon Keeper's Guide</a>
-            </div>
-        </div>
+    <main class="container-fluid">
 
         <!-- Page title & introduction -->
         <div class="row">
@@ -197,7 +191,7 @@
 
         </section>
 
-    </div> <!-- end main container -->
+    </main> <!-- end main container -->
 
     <footer class="mt-auto">
         <!-- Footer buttons-->
@@ -256,8 +250,8 @@
         </div>
 
         <!-- Copyright modal-->
-        <div class="modal fade modal--footer" id="copyrightModal" tabindex="-1"
-            aria-labelledby="copyrightModalLabel" aria-hidden="true">
+        <div class="modal fade modal--footer" id="copyrightModal" tabindex="-1" aria-labelledby="copyrightModalLabel"
+            aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="modal-body">

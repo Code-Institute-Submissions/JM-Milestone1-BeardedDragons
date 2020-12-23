@@ -9,12 +9,16 @@ body {
 
 h1, h2 {
     text-transform: uppercase;
+    padding: 0;
+    margin: 0;
 }
 
+h1 {
+    font-size: x-large;
+}
 h2 {
     font-size: medium;
     padding: 15px 0px;
-    margin: 0px;
 }
 
 strong {
@@ -25,6 +29,12 @@ hr {
     background-color: burlywood;
     margin: 0;
     width: 100%;
+}
+
+.full-width {
+    width:100vw;
+    position: relative;
+    left:0;
 }
 
 /* MAIN CONTAINER */
@@ -62,6 +72,19 @@ header {
 .bars-mobile {
     color: lightgray;
     font-size: 8vh;
+}
+
+/* TITLE & INTRO */
+
+.page-intro {
+    margin-top: 15px;
+}
+
+.page-title {
+    border-width: 1px 0px;
+    border-color: burlywood;
+    border-style: solid;
+    padding: 20px 0px;
 }
 
 /* INFO PAGE */

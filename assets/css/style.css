@@ -282,7 +282,7 @@ footer {
 .modal-dialog {
     position: absolute;
     bottom: 10vh;
-    width: 80%;
+    width: 100vw;
     margin: 0 10%;
 
 }
@@ -295,15 +295,22 @@ footer {
     font-size: small;
     background-color: black;
     color: lightgray;
+    width: 80%;
 }
 
-.modal--footer {}
+
+/* MEDIA QUERIES */
 
 @media only screen and (max-width: 300px) {
     .nav-img {background-image: none;}
 }
 
-@media only screen and (max-width: 572px) {
+@media only screen and (max-width: 576px) {
     /* .header-img {background-position: left left;}
     .container-fluid {width: 80vw;} */
+    .modal-dialog {max-width:none;}
+}
+
+@media only screen and (min-width: 577px) {
+    .modal-dialog {max-width:60%; right: 10vw;}
 }

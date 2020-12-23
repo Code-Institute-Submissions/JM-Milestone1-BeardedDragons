@@ -54,6 +54,13 @@ hr {
 
 /* HEADER */
 
+header {
+    background-image: url("../images/nav-lizard.png");
+    background-repeat: no-repeat;
+background-position: center;
+    background-size: contain;
+
+}
 nav {
     text-align: right;
 }

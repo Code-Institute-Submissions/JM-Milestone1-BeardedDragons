@@ -42,8 +42,7 @@ hr {
 /* MAIN CONTAINER */
 
 .container-fluid {
-    position: static;
-    min-height: 90vh;
+    min-height: 95vh;
     width: 100vw;
 }
 
@@ -278,5 +277,6 @@ footer {
 .modal--footer {}
 
 @media only screen and (max-width: 572px) {
-    .header-img {background-position: left left;}
+    /* .header-img {background-position: left left;}
+    .container-fluid {width: 80vw;} */
 }

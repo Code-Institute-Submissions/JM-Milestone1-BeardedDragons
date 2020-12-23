@@ -54,3 +54,14 @@ The UI has been designed with style and intuition at its core. The design aims t
 ### Languages Used
 * [HTML5](https://en.wikipedia.org/wiki/HTML5)
 * [CSS3](https://en.wikipedia.org/wiki/CSS)
+
+## Testing
+
+## Deployment
+
+## Credits
+### Media
+
+### Resources
+
+### Acknowledgements

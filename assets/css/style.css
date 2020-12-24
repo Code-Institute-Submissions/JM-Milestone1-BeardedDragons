@@ -1,4 +1,4 @@
-/* TEXT */
+/* CONTAINERS */
 
 body {
     text-align: center;
@@ -7,11 +7,29 @@ body {
     font-size: small;
 }
 
+.container-fluid {
+    min-height: 80vh;
+    padding: 0;
+}
+
+.container {
+    padding: 0;
+    margin: 0;
+}
+
 .row {
     padding: 0px;
     margin: 0px;
 }
 
+.full-width {
+    width: 100vw;
+    position: absolute;
+    left: 0;
+}
+
+
+/* TEXT */
 
 h1,
 h2 {
@@ -39,23 +57,6 @@ hr {
     width: 100%;
 }
 
-.full-width {
-    width: 100vw;
-    position: absolute;
-    left: 0;
-}
-
-/* MAIN CONTAINER */
-
-.container-fluid {
-    min-height: 80vh;
-    padding: 0;
-}
-
-.container {
-    padding: 0;
-    margin: 0;
-}
 
 /* HEADER */
 
@@ -64,13 +65,13 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-
 }
 
 nav {
     text-align: right;
     padding: 10px 0px;
 }
+
 .navbar {
     padding: 0;
 }
@@ -85,11 +86,10 @@ nav {
 .nav-links {
     padding: 0px 5vw 0px 0px;
     margin: 0;
-
 }
 
 .nav-links li {
-justify-content: end;
+    justify-content: end;
 }
 
 .nav-link {
@@ -106,7 +106,7 @@ justify-content: end;
     vertical-align: middle;
     text-align: center;
     justify-content: center;
-  align-items: center;
+    align-items: center;
 }
 
 .fa-bars {
@@ -127,14 +127,11 @@ justify-content: end;
 }
 
 .page-title {
-    /* border-width: 1px 0px 0px 0px;
-    border-color: burlywood;
-    border-style: solid; */
     padding: 20px 0px;
 }
 
 .hero {
-    width:100%;
+    width: 100%;
     padding: 0 0 15px 0;
     margin: 0;
 }
@@ -151,11 +148,6 @@ justify-content: end;
 
 
 /* INDEX PAGE */
-
-#index-links {
-    /* width:100%; */
-    justify-content: end;
-}
 
 
 /* INFO PAGE */
@@ -213,14 +205,13 @@ justify-content: end;
     background-color: black;
 }
 
+
 /* GUIDE PAGE */
 
 .guide-article {
     border: 1.5px solid burlywood;
-
     width: 90%;
     margin: 0px auto 30px auto;
-
 }
 
 .guide-article p {
@@ -232,9 +223,6 @@ justify-content: end;
     height: 200px;
     width: 90%;
     margin: 0 auto 10px auto;
-
-    /* border: 2px solid burlywood; */
-
 }
 
 .btn-guide {
@@ -272,6 +260,7 @@ justify-content: end;
     background-repeat: no-repeat;
     background-size: contain;
 }
+
 
 /* FOOTER */
 
@@ -327,36 +316,63 @@ footer {
 
 /* fix nav dropdown bg-img issue */
 @media only screen and (max-width: 300px) {
-    .nav-img {background-image: none;}
+    .nav-img {
+        background-image: none;
+    }
 }
 
-/* PHONE */
+/* PHONE S, M */
 @media only screen and (max-width: 576px) {
-    .modal-dialog {max-width:none;}
+    .modal-dialog {
+        max-width: none;
+    }
 }
 
+/* PHONE L */
 @media only screen and (min-width: 577px) {
-    .modal-dialog {max-width:60%; right: 10vw;}
-    .page-title {padding: 30px 0;}
-    .page-intro {padding-right: 0;}
-    .hero {width: 90%; margin-left:5%;}
-    .hero-img {width: 100%}
+    .modal-dialog {
+        max-width: 60%;
+        right: 10vw;
+    }
+
+    .page-title {
+        padding: 30px 0;
+    }
+
+    .page-intro {
+        padding-right: 0;
+    }
+
+    .hero {
+        width: 90%;
+        margin-left: 5%;
+    }
+
+    .hero-img {
+        width: 100%
+    }
 }
 
 /* TABLET */
 @media only screen and (min-width: 768px) {
-    body {font-size: medium;}
-    nav {height: 145px;}
-    header {background-position: left;}
+    body {
+        font-size: medium;
+    }
 
+    nav {
+        height: 145px;
+    }
+
+    header {
+        background-position: left;
+    }
 }
 
 /* LAPTOP */
 @media only screen and (min-width: 992px) {
+    .container-fluid {
+        width: 90%;
+    }
 
-    .container-fluid {width: 90%;}
-
-/* PC */
-@media only screen and (min-width: 1200px) {
-
-}
+    /* PC */
+    @media only screen and (min-width: 1200px) {}

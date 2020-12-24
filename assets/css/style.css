@@ -204,7 +204,6 @@ justify-content: end;
 }
 
 .guide-article p {
-    font-size: small;
     text-align: justify;
     margin-top: 12px;
 }
@@ -323,6 +322,7 @@ footer {
 
 /* TABLET */
 @media only screen and (min-width: 768px) {
+    body {font-size: medium;}
     nav {height: 145px;}
     header {background-position: left;}
 }

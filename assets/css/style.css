@@ -130,8 +130,22 @@ justify-content: end;
     /* border-width: 1px 0px 0px 0px;
     border-color: burlywood;
     border-style: solid; */
-    padding: 15px 0px;
+    padding: 20px 0px;
 }
+
+.hero {
+    width:90%;
+    margin: auto;
+    padding: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.hero-img {
+    width: 100%;
+    border: 1px solid burlywood;
+}
+
 
 /* INDEX PAGE */
 
@@ -140,10 +154,6 @@ justify-content: end;
     justify-content: end;
 }
 
-.jumbo-page-img {
-    width:90%;
-    border: 1px solid burlywood;
-}
 
 /* INFO PAGE */
 
@@ -328,14 +338,15 @@ footer {
 
 /* TABLET */
 @media only screen and (min-width: 768px) {
+    body {font-size: medium;}
     nav {height: 145px;}
     header {background-position: left;}
-
+    .page-title {padding: 30px;}
 }
 
 /* LAPTOP */
 @media only screen and (min-width: 992px) {
-    body {font-size: medium;}
+
     .container-fluid {width: 90%;}
 
 /* PC */

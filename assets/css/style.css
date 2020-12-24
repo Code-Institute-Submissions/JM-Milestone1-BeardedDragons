@@ -127,7 +127,7 @@ justify-content: end;
 }
 
 .page-title {
-    border-width: 1px 0px;
+    border-width: 1px 0px 0px 0px;
     border-color: burlywood;
     border-style: solid;
     padding: 15px 0px;
@@ -138,6 +138,18 @@ justify-content: end;
     background-repeat: no-repeat;
     background-size: auto 100%; */
 
+}
+
+/* INDEX PAGE */
+
+#index-links {
+    /* width:100%; */
+    justify-content: end;
+}
+
+.jumbo-page-img {
+    width:80%;
+    border: 1px solid burlywood;
 }
 
 /* INFO PAGE */

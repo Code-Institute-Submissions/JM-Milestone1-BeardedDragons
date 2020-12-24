@@ -210,9 +210,11 @@ justify-content: end;
 /* GUIDE PAGE */
 
 .guide-article {
+    border: 1.5px solid burlywood;
 
-    width: 90%w;
-    margin-bottom: 10px;
+    width: 90%;
+    margin: 0px auto 30px auto;
+
 }
 
 .guide-article p {
@@ -220,19 +222,17 @@ justify-content: end;
     margin-top: 12px;
 }
 
-.guide-article img {
-    border: 1.5px solid burlywood;
-}
-
 .guide-img {
     height: 20vh;
-    width: 40vw;
-    margin-bottom: 6px;
-    border: 2px solid burlywood;
+    width: 90%;
+    margin: 0 auto 10px auto;
+
+    /* border: 2px solid burlywood; */
+
 }
 
 .btn-guide {
-    margin: 10px auto 20px auto;
+    margin: 10px auto 5px auto;
     font-size: small;
 }
 
@@ -260,6 +260,7 @@ justify-content: end;
 }
 
 #firstArticle {
+    background: url("../images/dragon-small.jpg");
     background: url("../images/dragon-small.jpg");
     background-position: bottom middle;
     background-repeat: no-repeat;

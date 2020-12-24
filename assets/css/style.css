@@ -148,14 +148,14 @@ justify-content: end;
 }
 
 .jumbo-page-img {
-    width:80%;
+    width:90%;
     border: 1px solid burlywood;
 }
 
 /* INFO PAGE */
 
 .accordion {
-    width: 90vw;
+    width: 90%;
     margin: 20px auto;
     border: 1.5px solid burlywood;
     border-radius: 2px;
@@ -211,7 +211,7 @@ justify-content: end;
 
 .guide-article {
 
-    width: 100vw;
+    width: 90%w;
     margin-bottom: 10px;
 }
 

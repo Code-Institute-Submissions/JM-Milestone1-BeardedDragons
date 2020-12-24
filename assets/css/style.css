@@ -216,7 +216,7 @@ justify-content: end;
 }
 
 .guide-img {
-    height: 20vh;
+    height: 200px;
     width: 90%;
     margin: 0 auto 10px auto;
 
@@ -328,7 +328,6 @@ footer {
 
 /* TABLET */
 @media only screen and (min-width: 768px) {
-    body {font-size: medium;}
     nav {height: 145px;}
     header {background-position: left;}
 
@@ -336,6 +335,7 @@ footer {
 
 /* LAPTOP */
 @media only screen and (min-width: 992px) {
+    body {font-size: medium;}
     .container-fluid {width: 90%;}
 
 /* PC */

@@ -127,17 +127,10 @@ justify-content: end;
 }
 
 .page-title {
-    border-width: 1px 0px 0px 0px;
+    /* border-width: 1px 0px 0px 0px;
     border-color: burlywood;
-    border-style: solid;
+    border-style: solid; */
     padding: 15px 0px;
-    /* margin-top: auto; */
-
-    /* background: url("../images/dragon-largebg-3.jpg");
-    background-position: bottom right;
-    background-repeat: no-repeat;
-    background-size: auto 100%; */
-
 }
 
 /* INDEX PAGE */
@@ -338,13 +331,14 @@ footer {
     body {font-size: medium;}
     nav {height: 145px;}
     header {background-position: left;}
-    .container-fluid {width: 90vw;}
+
 }
 
 /* LAPTOP */
 @media only screen and (min-width: 992px) {
+    .container-fluid {width: 90%;}
 
 /* PC */
 @media only screen and (min-width: 1200px) {
-    
+
 }

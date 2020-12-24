@@ -13,7 +13,7 @@
 
 <body>
     <!-- Header with nav links -->
-    <header class="header">
+    <header class="d-md-none">
         <nav>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mobileNav"
                 aria-controls="mobileNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,6 +29,20 @@
             <li class="row"><a class="nav-link" href="guide.html">Guide</a></li>
         </ul>
 
+    </div>
+
+    <div class="d-none d-md-block">
+        <nav class="row nav-img justify-content-end nav-links">
+            <div class="col-2">
+                <a class="nav-link nav-link-md" href="info.html">Information</a>
+            </div>
+            <div class="col-2">
+                <a class="nav-link" href="guide.html">Guide</a>
+            </div>
+            <div class="col-2">
+                <a class="nav-link" href="index.html"><i class="fas fa-home"></i></a>
+            </div>
+        </nav>
     </div>
 
     <main class="container-fluid">

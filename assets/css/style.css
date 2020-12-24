@@ -48,7 +48,7 @@ hr {
 /* MAIN CONTAINER */
 
 .container-fluid {
-    min-height: 93vh;
+    min-height: 80vh;
     padding: 0;
 }
 

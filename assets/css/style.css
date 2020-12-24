@@ -198,8 +198,8 @@ justify-content: end;
 /* GUIDE PAGE */
 
 .guide-article {
-    /* border: 1.5px solid burlywood; */
-    width: 90vw;
+
+    width: 100vw;
     margin-bottom: 10px;
 }
 

@@ -107,8 +107,8 @@
                     <!-- Purchase link -->
                     <div class="row">
                         <div class="col-12">
-                            <a href="https://amazon.com" class="store-link" target="_blank">
-                                <button type="button" class="btn btn-success btn-guide">Buy Now</button></a>
+                            <button type="button" class="btn btn-success btn-guide" data-toggle="modal"
+                                data-target="#A1Modal">Buy Now</button>
                         </div>
                     </div>
                     <!-- Article text -->
@@ -145,8 +145,8 @@
                     <!-- Purchase link -->
                     <div class="row">
                         <div class="col-12">
-                            <a href="https://amazon.com" class="store-link" target="_blank">
-                                <button type="button" class="btn btn-success btn-guide">Buy Now</button></a>
+                            <button type="button" class="btn btn-success btn-guide" data-toggle="modal"
+                                data-target="#A2Modal">Buy Now</button>
                         </div>
                     </div>
                     <!-- Article text -->
@@ -183,8 +183,8 @@
                     <!-- Purchase link -->
                     <div class="row">
                         <div class="col-12">
-                            <a href="https://amazon.com" class="store-link" target="_blank">
-                                <button type="button" class="btn btn-success btn-guide">Buy Now</button></a>
+                            <button type="button" class="btn btn-success btn-guide" data-toggle="modal"
+                                data-target="#A3Modal">Buy Now</button>
                         </div>
                     </div>
                     <!-- Article text -->
@@ -204,6 +204,63 @@
                 </article>
             </div>
 
+            <!-- A1 modal -->
+            <div class="modal fade" id="A1Modal" tabindex="-1" aria-labelledby="amazonModelLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            You are now leaving bd.com to visit Amazon.com.<br><br>
+                            Are you sure?
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <button type="button" class="btn btn-primary"><a
+                                    href="https://www.amazon.com/s?k=
+                                    vivarium
+                                    &ref=nb_sb_noss_1"
+                                    target="_blank">Confirm</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- A2 modal -->
+            <div class="modal fade" id="A2Modal" tabindex="-1" aria-labelledby="amazonModelLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            You are now leaving bd.com to visit Amazon.com.<br><br>
+                            Are you sure?
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <button type="button" class="btn btn-primary"><a
+                                    href="https://www.amazon.com/s?k=
+                                    lizard-food
+                                    &ref=nb_sb_noss_1"
+                                    target="_blank">Confirm</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- A2 modal -->
+            <div class="modal fade" id="A3Modal" tabindex="-1" aria-labelledby="amazonModelLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            You are now leaving bd.com to visit Amazon.com.<br><br>
+                            Are you sure?
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <button type="button" class="btn btn-primary"><a
+                                    href="https://www.amazon.com/s?k=
+                                    beardeddragons
+                                    &ref=nb_sb_noss_1"
+                                    target="_blank">Confirm</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
 
     </main> <!-- end main container -->
@@ -219,14 +276,14 @@
             </div>
             <div class="col-3 col-md-2 col-xl-1 footer-button"">
                 <!-- Contact button -->
-                <button type="button" class="btn btn-footer" data-toggle="modal" data-target="#contactModal">
-                    Contact
+                <button type=" button" class="btn btn-footer" data-toggle="modal" data-target="#contactModal">
+                Contact
                 </button>
             </div>
             <div class="col-3 col-sm-1 col-lg-1 footer-button"">
                 <!-- Copyright button -->
-                <button type="button" class="btn btn-footer" data-toggle="modal" data-target="#copyrightModal">
-                    Copyright
+                <button type=" button" class="btn btn-footer" data-toggle="modal" data-target="#copyrightModal">
+                Copyright
                 </button>
             </div>
         </div>

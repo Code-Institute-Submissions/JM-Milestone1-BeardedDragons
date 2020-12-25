@@ -14,18 +14,18 @@ The core aim of the project is to provide consumers with a professional, appeali
 The secondary aim of the project is to act as a prototype for an affiliate marketing website, by funnelling Users looking to purchase pet equipment to Amazon Store pages.
 
 ## UX
-The UI has been designed with style, intuition and simplicity at its core. The design aims to elevate the appeal of the bearded dragon through high quality images and detailed but easy-to-read information, and make the User journey as simple as possible.
+The UI has been designed with style and intuition at its core. The design elevates the appeal of the bearded dragon through high quality images and detailed easy-to-read information. The UI also focuses on making the User journey as simple as possible.
 
-Due to sizing and accessibility issues with smaller viewports and responsivity issues, many of the initial wireframe designs were revised to allow a more streamlined User Experience.
+Due to sizing and accessibility issues with smaller viewports and responsivity issues, some wireframe designs were revised to allow a more streamlined User Experience.
 
 ### Design
 
-* __Colour scheme__ - The site contrasts a dark background (CSS charcoal and black) with lighter text and features (CSS lightgray, burlywood and darkorange). As a pimarily informational site, the high contrast allows the User to easily find and read the information they need. To maximise User enggement, the highlight colour matches the most popular species of bearded dragon (pogona...).
-* __Typography__ - Rubik is used to keep the information simple and easy to read. The headers are styled with Roboto to give the site a professional finish.
-* __Imagery__ - Various high-quality images of the same bearded dragon are used as hero images to tie the website together and increase User engagement.
+* __Colour scheme__ - The site contrasts a dark background (CSS charcoal and black) with lighter text and features (CSS lightgray, burlywood and darkorange). As a pimarily informational site, the high contrast allows the User to easily find and read the information they need. The highlight colour matches the most popular species of bearded dragon to maximise User engagement.
+* __Typography__ - Rubik is used to keep the information simple and easy to read. Roboto is used to give headers a bold, professional finish.
+* __Imagery__ - High-quality images of the same bearded dragon are used as hero images to tie the website together and increase User engagement.
 
 ### User Stories
-The UI has been designed with style and intuition at its core. The design aims to elevate the appeal of the bearded dragon through high quality images and detailed but easy-to-read information, and make the User journey as simple as possible.
+
 
 * A User purely seeking information or doing research on bearded dragons:
     * As a User, I want easy-to-locate, easy-to-read information

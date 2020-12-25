@@ -12,7 +12,12 @@ h2 {
 }
 
 h1 {
-    font-size: x-large;
+    font-size: 30px;
+    margin: 40px auto;
+    width: 100%;
+    background-color: black;
+    border: 1px solid burlywood;
+    padding: 15px;
 }
 
 h2 {
@@ -407,6 +412,11 @@ footer {
 
     header {
         background-position: left;
+    }
+
+    h1 {
+        font-size: 45px;
+        margin: 25px 0;
     }
 }
 

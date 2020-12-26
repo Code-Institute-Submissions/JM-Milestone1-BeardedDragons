@@ -170,7 +170,6 @@ nav {
     background-size: contain;
 }
 
-.row .lizard-logo {}
 
 /* TITLE & INTRO */
 
@@ -208,11 +207,7 @@ nav {
     width: 100%;
     float: left;
     border: 1px solid burlywood;
-
 }
-
-
-/* INDEX PAGE */
 
 
 /* INFO PAGE */
@@ -289,7 +284,6 @@ nav {
     height: 200px;
     width: 90%;
     margin: 0 auto 10px auto;
-
 }
 
 .btn-guide {
@@ -366,7 +360,6 @@ nav {
 }
 
 
-
 /* FOOTER */
 
 footer {
@@ -407,10 +400,7 @@ footer {
     bottom: 10vh;
     width: 100vw;
     margin: 0 10%;
-
 }
-
-.modal-body {}
 
 .modal-content {
     border: 1px solid burlywood;
@@ -428,12 +418,6 @@ footer {
 @media only screen and (max-width: 300px) {
     .nav-img {
         background-image: none;
-    }
-}
-
-@media only screen and (max-width: 420px) {
-    . {
-        margin: 0;
     }
 }
 

@@ -13,7 +13,7 @@ h2 {
 
 h1 {
     font-size: 22px;
-    margin: 40px auto;
+    margin: 25px auto;
     width: 100%;
     background-color: black;
     border: 1px solid burlywood;
@@ -49,9 +49,15 @@ hr {
     color: burlywood;
 }
 
-/* a {
+a {
+    color: lightgray;
+    font-weight: bold;
+}
+
+a:hover {
     color: burlywood;
-} */
+    text-decoration: none;
+}
 
 
 /* CONTAINERS */
@@ -283,13 +289,25 @@ nav {
     height: 200px;
     width: 90%;
     margin: 0 auto 10px auto;
-    
+
 }
 
 .btn-guide {
     margin: 10px auto 5px auto;
     font-size: small;
     background-color: darkorange;
+    color: lightgray;
+}
+
+.btn-guide:hover {
+    background-color: orange;
+    color:lightgray;
+}
+
+.btn-guide:active, .btn-guide:visited, .btn-guide:focus {
+    background-color: darkorange;
+    border: none;
+    box-shadow: none;
 }
 
 .guide-dropdown {

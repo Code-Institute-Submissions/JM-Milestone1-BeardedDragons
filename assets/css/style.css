@@ -26,6 +26,14 @@ h2 {
     padding: 15px 0px;
 }
 
+h3 {
+    background-color: black;
+    border: 1px solid burlywood;
+    padding: 7px;
+    text-align: center;
+    font-size: 17px;
+}
+
 strong {
     color: burlywood;
 }
@@ -41,6 +49,9 @@ hr {
     color: burlywood;
 }
 
+a {
+    color: burlywood;
+}
 
 
 /* CONTAINERS */
@@ -158,7 +169,13 @@ nav {
 /* TITLE & INTRO */
 
 .page-intro {
-    margin-top: 15px;
+    margin: 15px 0;
+    text-align: justify;
+}
+
+.page-text {
+    padding: 0 5%;
+    text-align: justify;
 }
 
 .page-title {
@@ -293,12 +310,12 @@ nav {
     border-top: 0;
 }
 
-#firstArticle {
-    background: url("../images/dragon-small.jpg");
-    background: url("../images/dragon-small.jpg");
+#Vivarium {
+    background: url("../images/vivarium.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    border: 1px solid lightgray;
 }
 
 

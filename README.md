@@ -1,10 +1,10 @@
-# BeardedDragonCentral.com
+# The Dragon's Den
 
 [View the site here!](https://jamiem-hub.github.io/JM-Milestone1-BeardedDragons/)
 
-### A clean and fun source of information about the species, and guidance on keeping a bearded dragon as a pet!
+A clean, professional and fun source of information about the bearded dragon, guidance on how to keep one as a pet, and links to the equipment you need to keep your own dragon!
 
-![mockup_goes_here](./documentation/preview-img.png)
+![website responsiveness mockup](./documentation/preview-img.png)
 
 </p>
 
@@ -68,10 +68,33 @@ Due to sizing and accessibility issues with smaller viewports and responsivity i
 * [Google Fonts](https://fonts.google.com/)
 
 ## Testing
+* A User purely seeking information or doing research on bearded dragons:
+    * As a User, I want easy-to-locate, easy-to-read information
+        * I click one of the navbar icons and I'm taken to a page full of information
+    * As a User, I want clean and appealing presentation of information
+        * I each page I visit has a basic colour scheme and a good level of contrast for reading
+    * As a User, I want external links for further reading
+        * I visit the Info page and then visit the Guide page, where I'm able to go to an external site for buying bearded dragons and click an external link about keeping bearded dragons as pet
+* A User seeking specific information on buying and keeping bearded dragons:
+    * As a User, I want robust and detailed information on my specific issue
+        * I want to know how to keep a bearded dragon so I locate the guide page and learn what kind of vivarium I need to house a bearded dragon.
+    * As a User, I want an intuitive and easy-to-locate contents list for different specific issues
+        * I'm looking for information on various parts of a robust vivarium and find links leading me directly to all necessary items
+    * As a User, I want a professional-looking website I can trust as a reputable source
+        * As I view the site, I don't find any visual or functional issues (with the exception of the offset footer modal) which makes me think that the website was professionally produced and as such, the information is trustworthy.
+* A User looking to buy bearded dragon pet equipment:
+    * As a User, I want easy-to-locate information on what equipment I may need and why
+        * I visit the site and go to the Guide page, and immediately find information on reptile pet equipment
+    * As a User, I want clear, unambiguous links to an appropriate merchant page listed next to the relevant section of information
+        * I visit the Guide page, find the equipment I want, click the Buy Now button and end up at an Amazon page for the equipment I want
+    * As a User, I want clear information about which specific vendor I will be purchasing from, and what to do if there is an issue with my order
+        * I visit the Guide page, have a security question, click the About button at the bottom of the page, and discover that all Buy Now links lead to Amazon.com
+    * As a User, I want contact details so I can get in touch with a website official with any concerns
+        * I visit any page and click the Contact button at the bottom of the page. I am given the email address for website staff and invited to contact them with any issues
+
 ### Known Bugs
 
 * The footer buttons will call a modal dialog containing relevant information. However, the modal dialog position should be centered for all viewports and currently the dialog will display off-center and the offset increases as the viewport is widened.
-
 * The header lizard logo retains some MS Paint artefacts.
 
 ## Deployment
@@ -87,10 +110,9 @@ Creative Commons images and text were pulled from the following sources:
 ### Resources
 I found useful advice and code snippets from the following sources:
 * [Bootstrap](https://getbootstrap.com)
+** Modals, Collapses and Dropdowns were copied and modified
 * [w3schools](https://w3schools.com)
-* [Goolge Fonts](https://fonts.google.com/)
-* [Mozilla](https://developer.mozilla.org/en-US/docs/Web)
-* [CSS Tricks](https://css-tricks.com/)
+* [Google Fonts](https://fonts.google.com/)
 * [Stack Overflow](https://stackoverflow.com/)
 
 ### Acknowledgements

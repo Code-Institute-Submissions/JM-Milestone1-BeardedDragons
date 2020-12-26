@@ -121,11 +121,13 @@
                     data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select</button>
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                    <a class="dropdown-item" href="#guideArticleOne">Article One</a>
+                    <a class="dropdown-item" href="#vivariumArticle">Vivarium</a>
                     <hr>
-                    <a class="dropdown-item" href="#guideArticleTwo">Article Two</a>
+                    <a class="dropdown-item" href="#heaterArticle">Tank Heater</a>
                     <hr>
-                    <a class="dropdown-item" href="#guideArticleThree">Article Three</a>
+                    <a class="dropdown-item" href="#thermometerArticle">Hygrometer</a>
+                    <hr>
+                    <a class="dropdown-item" href="#accessoriesArticle">Accessories</a>
                 </div>
             </div>
         </div>
@@ -167,7 +169,7 @@
                     <!-- Article title -->
                     <div class="row">
                         <div class="col-12">
-                            <h2>Article Two</h2>
+                            <h2>Tank Heater</h2>
                         </div>
                     </div>
                     <!-- Article image -->
@@ -184,54 +186,64 @@
                     </div>
                     <!-- Article text -->
                     <div class="row">
-                        <p class="col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit
-                            esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                            in
-                            culpa qui
-                            officia deserunt mollit anim id est laborum.
-                        </p>
+                        <p></p>
                     </div>
                 </article>
             </div>
 
-            <!-- Thermometer -->
+            <!-- Hygrometer -->
             <div class="col-12 col-md-6 col-xl-4">
-                <article id="thermometerArticle" class="guide-article">
+                <article id="hygrometerArticle" class="guide-article">
                     <!-- Article title -->
                     <div class="row">
                         <div class="col-12">
-                            <h2>Article Three</h2>
+                            <h2>Hygrometer</h2>
                         </div>
                     </div>
                     <!-- Article image -->
                     <div class="row justify-content-center">
-                        <div class="col-10 guide-img" id="Thermometer">
+                        <div class="col-10 guide-img" id="Hygrometer">
                         </div>
                     </div>
                     <!-- Purchase link -->
                     <div class="row">
                         <div class="col-12">
                             <button type="button" class="btn btn-success btn-guide" data-toggle="modal"
-                                data-target="#A3Modal">Buy Now</button>
+                                data-target="#HygrometerModal">Buy Now</button>
                         </div>
                     </div>
                     <!-- Article text -->
                     <div class="row">
-                        <p class="col-12">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                            incididunt ut labore et
-                            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
-                            ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                            velit
-                            esse
-                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
-                            in
-                            culpa qui
-                            officia deserunt mollit anim id est laborum.
+                        <p class="">
+                        </p>
+                    </div>
+                </article>
+            </div>
+
+            <!-- Accessories -->
+            <div class="col-12 col-md-6 col-xl-4">
+                <article id="accessoriesArticle" class="guide-article">
+                    <!-- Article title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <h2>Accessories</h2>
+                        </div>
+                    </div>
+                    <!-- Article image -->
+                    <div class="row justify-content-center">
+                        <div class="col-10 guide-img" id="Accessories">
+                        </div>
+                    </div>
+                    <!-- Purchase link -->
+                    <div class="row">
+                        <div class="col-12">
+                            <button type="button" class="btn btn-success btn-guide" data-toggle="modal"
+                                data-target="#AccessoriesModal">Buy Now</button>
+                        </div>
+                    </div>
+                    <!-- Article text -->
+                    <div class="row">
+                        <p class="">
                         </p>
                     </div>
                 </article>
@@ -273,8 +285,9 @@
                 </div>
             </div>
 
-            <!-- Thermometer modal -->
-            <div class="modal fade" id="A3Modal" tabindex="-1" aria-labelledby="amazonModelLabel" aria-hidden="true">
+            <!-- Hygrometer modal -->
+            <div class="modal fade" id="HygrometerModal" tabindex="-1" aria-labelledby="amazonModelLabel"
+                aria-hidden="true">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-body">
@@ -290,6 +303,25 @@
                 </div>
             </div>
 
+            <!-- Accessories modal -->
+            <div class="modal fade" id="AccessoriesModal" tabindex="-1" aria-labelledby="amazonModelLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            You are now leaving this site.<br><br>
+                            Are you sure?
+                        </div>
+                        <div class="modal-footer justify-content-center">
+                            <button type="button" class="btn btn-primary"><a
+                                    href="https://www.amazon.co.uk/dp/B08JCZF81M/ref=sspa_dk_detail_4?psc=1&pd_rd_i=B08JCZF81M&pd_rd_w=gYu0j&pf_rd_p=1055d8b2-c10c-4d7d-b50d-96300553e15d&pd_rd_wg=o8UX7&pf_rd_r=RD829KV74EKQBG2C60DF&pd_rd_r=e6755c6b-ad87-4bc7-b226-35070ad8d97f&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFRVM0RzRNRjlIVDYmZW5jcnlwdGVkSWQ9QTAzNjMxODIyTkc1U0JWUk0wSTNCJmVuY3J5cHRlZEFkSWQ9QTAwNzkxMTJQUVNJVzJHSVhQNVMmd2lkZ2V0TmFtZT1zcF9kZXRhaWwmYWN0aW9uPWNsaWNrUmVkaXJlY3QmZG9Ob3RMb2dDbGljaz10cnVl"
+                                    target="_blank">Confirm</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </section>
 
     </main> <!-- end main container -->
@@ -303,16 +335,16 @@
                     About
                 </button>
             </div>
-            <div class="col-3 col-md-2 col-xl-1 footer-button"">
+            <div class="col-3 col-md-2 col-xl-1 footer-button">
                 <!-- Contact button -->
                 <button type=" button" class="btn btn-footer" data-toggle="modal" data-target="#contactModal">
-                Contact
+                    Contact
                 </button>
             </div>
-            <div class="col-3 col-sm-1 col-lg-1 footer-button"">
+            <div class="col-3 col-sm-1 col-lg-1 footer-button">
                 <!-- Copyright button -->
                 <button type=" button" class="btn btn-footer" data-toggle="modal" data-target="#copyrightModal">
-                Copyright
+                    Copyright
                 </button>
             </div>
         </div>

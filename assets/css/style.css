@@ -12,7 +12,7 @@ h2 {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin: 40px auto;
     width: 100%;
     background-color: black;
@@ -463,7 +463,7 @@ footer {
     }
 
     h1 {
-        font-size: 45px;
+        font-size: 35px;
         margin: 25px 0;
     }
 }
@@ -473,11 +473,19 @@ footer {
     .container-fluid {
         width: 90%;
     }
+
+    h1 {
+        font-size: 40px;
+    }
 }
 
 /* PC */
 @media only screen and (min-width: 1200px) {
     .container-fluid {
         width: 70%;
+    }
+
+    h1 {
+        font-size: 45px;
     }
 }

@@ -173,6 +173,10 @@ nav {
     text-align: justify;
 }
 
+#indexIntro {
+    margin: 15px 0;
+}
+
 .page-text {
     padding: 0 5%;
     text-align: justify;
@@ -444,7 +448,7 @@ footer {
     }
 
     .hero-img {
-        width: 100%
+        width: 100%;
     }
 }
 

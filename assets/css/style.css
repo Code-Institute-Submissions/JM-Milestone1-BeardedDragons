@@ -320,7 +320,7 @@ nav {
 
 .dropdown-item {
     color: lightgray;
-    padding: 7 auto;
+    padding: 7px auto;
 }
 
 #firstDropdownItem {

@@ -68,6 +68,11 @@ Due to sizing and accessibility issues with smaller viewports and responsivity i
 * [Google Fonts](https://fonts.google.com/)
 
 ## Testing
+After human proof reading all HTML and CSS files they were validated again using ![FreeFormatter](https://freeformatter.com) and ![W3C CSS Validator Services](https://jigsaw.w3.org/css-validator/validator) to ensure no unknown bugs are present. Some minor code formatting bugs were thrown that do not affect User experience or website functionality.
+
+Site was tested on Google Chrome and Mozilla Firefox at every breakpoint and was found to respond satisfactorily.
+
+### Testing User Stories
 * A User purely seeking information or doing research on bearded dragons:
     * As a User, I want easy-to-locate, easy-to-read information
         * I click one of the navbar icons and I'm taken to a page full of information
@@ -98,6 +103,33 @@ Due to sizing and accessibility issues with smaller viewports and responsivity i
 * The header lizard logo retains some MS Paint artefacts.
 
 ## Deployment
+### Deploying to GitHub
+
+You can deploy this project to GitHub by doing the following:
+
+1. Log in to your GitHub account and search for/locate this repository
+2. Click the 'Settings'button at the top of the page
+3. Find the 'GitHub Pages' section
+4. Make sure 'main' is selected on the 'Branch' dropdown
+5. Click the newly-created link with a green tick next to it.
+6. Enjoy the website!
+
+### Forking the GitHub Repository
+You can fork this GitHub Repository if you wish to make a copy of the original repository on your GitHub account without affecting the original respository:
+
+1. Log in to your GitHub account and search for/locate this repository
+2. Click the 'Fork' button at the top of the page
+3. Your GitHub account will now have an exact copy of the project that you can edit
+
+### Making a Local Clone
+1. Log in to your GitHub account and search for/locate this repository
+2. Click the 'Code' dropdown and select your cloning method
+3. If you have GitHub Desktop, click the GitHub Desktop button
+    * The application will open with this repository available for editing
+4. If you're using an alternative Git service
+    1. Open Git Bash
+    2. Make sure the current working directory is set to the location where you want to place the clone.
+    3. Type 'git clone' in your command line and paste the URL given on the GitHub repository page
 
 ## Credits
 ### Media

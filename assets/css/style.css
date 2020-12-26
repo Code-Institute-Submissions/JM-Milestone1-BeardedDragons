@@ -12,7 +12,7 @@ h2 {
 }
 
 h1 {
-    font-size: 25px;
+    font-size: 22px;
     margin: 40px auto;
     width: 100%;
     background-color: black;
@@ -467,7 +467,7 @@ footer {
     }
 
     h1 {
-        font-size: 35px;
+        font-size: 32px;
         margin: 25px 0;
     }
 }
@@ -489,7 +489,4 @@ footer {
         width: 70%;
     }
 
-    h1 {
-        font-size: 45px;
-    }
 }
